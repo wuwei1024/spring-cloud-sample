@@ -5,3 +5,5 @@ service1/target/
 logs/
 service2/.idea/
 service2/target/
+ribbon/.idea/
+ribbon/target/
