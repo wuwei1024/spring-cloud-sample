@@ -1,2 +1,5 @@
 eureka/.idea/
 eureka/target/
+service1/.idea/
+service1/target/
+logs/
