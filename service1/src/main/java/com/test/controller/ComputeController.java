@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  */
 @RestController
 public class ComputeController {
-    
+
     @Autowired
     private DiscoveryClient client;
     private static Logger logger = Logger.getLogger(ComputeController.class.getName());
@@ -23,7 +23,7 @@ public class ComputeController {
     @RequestMapping("/get")
     public String get() {
         ServiceInstance instance = client.getLocalServiceInstance();
-        String msg = "host: " + instance.getHost() + ", serviceId: " + instance.getServiceId();
+        String msg = "[service1] host: " + instance.getHost() + ", serviceId: " + instance.getServiceId();
         logger.log(Level.INFO, msg);
         return msg;
     }

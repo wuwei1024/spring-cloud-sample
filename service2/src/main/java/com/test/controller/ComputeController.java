@@ -23,7 +23,7 @@ public class ComputeController {
     @RequestMapping("/get")
     public String get() {
         ServiceInstance instance = client.getLocalServiceInstance();
-        String msg = "host: " + instance.getHost() + ", serviceId: " + instance.getServiceId();
+        String msg = "[service2] host: " + instance.getHost() + ", serviceId: " + instance.getServiceId();
         logger.log(Level.INFO, msg);
         return msg;
     }

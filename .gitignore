@@ -7,3 +7,5 @@ service2/.idea/
 service2/target/
 ribbon/.idea/
 ribbon/target/
+feign/.idea/
+feign/target/
