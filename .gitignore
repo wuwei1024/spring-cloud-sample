@@ -10,3 +10,5 @@ ribbon/target/
 feign/.idea/
 feign/target/
 config/.idea/
+zuul/.idea/
+zuul/target/
